@@ -1,0 +1,6 @@
+language: php
+services:
+  - docker
+
+script:
+  - docker pull "quay.io/phpseclib/php8.1"
